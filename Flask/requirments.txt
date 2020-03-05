@@ -1,0 +1,8 @@
+flask
+gunicorn
+pandas
+numpy
+warnings
+os
+gensim.models
+random
