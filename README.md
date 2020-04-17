@@ -10,7 +10,7 @@ In this part , we use the **Book-Crossing** datasets to showcase how can use [Az
 
 Part 2: 
 
-In this part , we can develpomnet web page  using **Flask API** and then recommendation outcome upload to blob , use **Logic APP**  monitor storage when a blob is added or modified , trigger **Send email** function
+In this part , we can develpomnet web page  using **Flask API** and then recommendation result upload to blob , use **Logic APP**  monitor storage when a blob is added or modified , trigger **Send email** function
 
 
 ## Prerequisite
@@ -90,7 +90,7 @@ In this part , we can develpomnet web page  using **Flask API** and then recomme
 
 ## Train processing
 
-*  Detail train processing  information for [book_recommendation](main/README)
+*  Detail train processing  information for [book_recommendation](main/README.md)
 
 
 ## Train Result
@@ -109,28 +109,28 @@ In this part , we can develpomnet web page  using **Flask API** and then recomme
 1. Sign in to the Azure portal ,and in the upper-left corner of Azure portal, select **Storage Accounts**
 
 <p align="center">
-    <img src="flask/images/007.png" width="20%" height="50%">
+    <img src="Flask/images/007.png" width="20%" height="50%">
 
 2. Select your **Storage Account**, if you have not **Storage Account**, create new
 
-<img src="flask/images/011.png" width="80%" height="80%">
+<img src="Flask/images/011.png" width="80%" height="80%">
 <p align="center">
     
 
 3. Click **Container**
 
-<img src="flask/images/008.png" width="80%" height="80%">
+<img src="Flask/images/008.png" width="80%" height="80%">
 
 4. Click **add Container**
 
-<img src="flask/images/009.png" width="80%" height="80%">
+<img src="Flask/images/009.png" width="80%" height="80%">
 
 
 
 * Name: **your unique name**
 * Public access level : **Container**
 
-<img src="flask/images/010.png" width="80%" height="80%">
+<img src="Flask/images/010.png" width="80%" height="80%">
 
 5. Click **OK**
 
@@ -139,7 +139,7 @@ In this part , we can develpomnet web page  using **Flask API** and then recomme
 
 ## Implement Flask API
 
-* **Detail Flask design** information for [Flask documents](Flask/README)
+* **Detail Flask design** information for [Flask documents](Flask/README.md)
 
 1-1. Open  **Flask** folder in VS code
 

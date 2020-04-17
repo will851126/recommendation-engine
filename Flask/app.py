@@ -99,15 +99,15 @@ def main():
         name=[]
         for i in range(len(recommendation)):
             name.append(recommendation.iloc[i][0])
-            #output = recommendation.to_json() 
+            output = recommendation.to_json() 
             #accountName='will'
             #accountKey=''
             #containerName='will'
              
 
-            # blobService = BlockBlobService(account_name=accountName, account_key=accountKey)
+            #blobService = BlockBlobService(account_name=accountName, account_key=accountKey)
 
-            # blobService.create_blob_from_text('will', 'recommendation.json', output)
+            #blobService.create_blob_from_text('will', 'recommendation.json', output)
         
         return flask.render_template('positive.html',book_name=name ,search_name=m_name)
 
