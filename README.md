@@ -414,7 +414,7 @@ Congratulations! You now have learned how to:
 
 2. Use Flask API coneect model 
 
-3. Recommendation outcome present in html
+3. Recommendation result present in html
 
 4. Use Vscode upload file to storage
 
